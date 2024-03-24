@@ -10,6 +10,10 @@ Tools like GitHub Actions, GitLab CI and others make git scraping adaptable to d
 
 This template includes a sample workflow to demonstrate the core git scraping capabilities. Read on to learn how to customize it!
 
+## Student Changes
+
+As editing this scraper is part of the assignment, the changes made to script.py were to read from the displayed under the button headline instead of the top headline in the DP's website.  This headline is displayed above the section titled "Most Read."
+
 ## Overview
 
 The workflow defined in `.github/workflows/scrape.yaml` runs on a defined schedule to:
