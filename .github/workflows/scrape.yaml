@@ -41,6 +41,8 @@ jobs:
       - name: 🕵️‍♂️ Scrape content and output
         run: |
           pipenv run python ./script.py
+      - name: 🔄 Pull latest changes
+        run: git pull origin main
 
       - name: 🚀 Commit generated logs
         uses: EndBug/add-and-commit@v9
